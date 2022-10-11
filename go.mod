@@ -14,6 +14,7 @@ go 1.19
 replace (
 	golang.org/x/crypto => golang.org/x/crypto v0.0.0-20221005025214-4161e89ecf1b
 	golang.org/x/text => golang.org/x/text v0.3.8
+	gopkg.in/yaml.v2 => gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 => gopkg.in/yaml.v3 v3.0.1
 )
 
