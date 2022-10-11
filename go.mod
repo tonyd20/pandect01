@@ -11,4 +11,6 @@ go 1.19
 
 // v0.23.2
 
+replace golang.org/x/crypto => golang.org/x/crypto v0.0.0-20221005025214-4161e89ecf1b
+
 require github.com/btcsuite/btcd/btcutil v1.1.2
