@@ -4,6 +4,9 @@ import (
 	"fmt"
 
 	"github.com/btcsuite/btcd/btcutil/base58"
+
+	_ "github.com/golangci/golangci-lint/cmd/golangci-lint"
+	_ "github.com/jstemmer/go-junit-report"
 )
 
 func SaladBar() {
