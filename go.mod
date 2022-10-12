@@ -3,6 +3,8 @@ module github.com/tonyd20/pandect01
 go 1.19
 
 replace (
+	//
+	github.com/coreos/etcd => go.etcd.io/etcd/client/v3 v3.5.5
 	golang.org/x/crypto => golang.org/x/crypto v0.0.0-20221005025214-4161e89ecf1b
 	golang.org/x/net => golang.org/x/net v0.0.0-20221004154528-8021a29435af
 	golang.org/x/text => golang.org/x/text v0.3.8
